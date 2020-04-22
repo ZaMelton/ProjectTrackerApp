@@ -1,5 +1,6 @@
 package com.zamelto.projecttracker.Repository;
 
+import com.zamelto.projecttracker.Models.ProjectTask;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
 
