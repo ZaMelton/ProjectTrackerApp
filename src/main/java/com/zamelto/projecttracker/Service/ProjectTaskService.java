@@ -27,4 +27,9 @@ public class ProjectTaskService {
     public ProjectTask getProjectById(Long id){
         return projectTaskRepository.getById(id);
     }
+
+    public void deleteProject(Long id){
+        ProjectTask projectTask = getProjectById(id);
+        projectTaskRepository.delete(projectTask);
+    }
 }
